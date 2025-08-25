@@ -1,0 +1,16 @@
+# Archivos y carpetas ignorados por Git
+*.pyc
+__pycache__/
+.env
+*.log
+.DS_Store
+node_modules/
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+*.db
+*.sqlite3
+# Ignorar archivos de sistema
+Thumbs.db

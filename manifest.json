@@ -1,0 +1,39 @@
+{
+  "dxt_version": "0.1",
+  "name": "filesystem",
+  "version": "1.0.0",
+  "description": "Filesystem",
+  "author": {
+    "name": "LuiccianDev",
+    "email": "LuiccianDev@gmail.com"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "",
+    "mcp_config": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${user_config.ALLOWED_DIRECTORIES}"
+      ],
+      "env": {}
+    }
+  },
+  "user_config": {
+    "ALLOWED_DIRECTORIES": {
+      "type": "directory",
+      "title": "Allowed Directories",
+      "description": "Directories that are allowed for the filesystem",
+      "required": true,
+      "sensitive": false,
+      "multiple": true
+    }
+  },
+  "keywords": [
+    "filesystem",
+    "mcp",
+    "claude"
+  ],
+  "license": "MIT"
+}
