@@ -51,6 +51,10 @@ For more information about DXT, visit [DXT on GitHub](https://github.com/anthrop
 
 For more details about credentials and configuration, see the original project [Notion MCP Server](https://github.com/makenotion/notion-mcp-server).
 
+## Resources Used
+
+Some resources and configuration for this project were used from [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem).
+
 ## License
 
 This project includes software under the MIT license from Anthropic, PBC. See the [LICENSE](LICENSE) file for more details.
