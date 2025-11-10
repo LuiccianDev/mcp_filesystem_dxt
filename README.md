@@ -2,7 +2,7 @@
 <div align="center">
   <h1> MCP Server Local Filesystem</h1>
   <p>
-  <em>Server for manipulating Notion documents via MCP</em>
+  <em>Server for manipulating files and documents via MCP</em>
   </p>
 
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
