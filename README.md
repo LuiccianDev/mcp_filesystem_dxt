@@ -8,7 +8,7 @@
   [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
   [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-brightgreen)](https://modelcontextprotocol.io)
   [![Node.js](https://img.shields.io/badge/Node.js-%3E=20.0.0-green)](https://nodejs.org/)
-    [![DXT](https://img.shields.io/badge/DXT-%40anthropic--ai%2Fdxt-blue)](https://github.com/anthropics/dxt)
+    [![MCPB](https://img.shields.io/badge/MCPB-%40anthropic--ai%2Fmcpb-blue)](https://github.com/anthropics/mcpb)
 
 </div>
 
@@ -23,13 +23,13 @@ This project contains the configuration and files required for the local MCP (Mo
 ## Requirements
 
 - Node.js
-- Install the DXT extension with the following command:
+- Install the MCPB extension with the following command:
 
 ```bash
-npm install -g @anthropic-ai/dxt
+npm install -g @anthropic-ai/mcpb
 ```
 
-For more information about DXT, visit [DXT on GitHub](https://github.com/anthropics/dxt).
+For more information about MCPB, visit [MCPB on GitHub](https://github.com/anthropics/mcpb).
 
 ## Installation
 
@@ -41,12 +41,12 @@ For more information about DXT, visit [DXT on GitHub](https://github.com/anthrop
 4. Package the extension by running:
 
     ```bash
-    dxt pack
+    mcpb pack
     ```
 
-    This will generate the `.dxt` file.
+    This will generate the `.mcpb` file.
 
-5. Install the `.dxt` file in Claude Desktop from Settings > Extensions > Advanced Settings > Extension Installation. You will then be prompted to enter your Notion credentials.
+5. Install the `.mcpb` file in Claude Desktop from Settings > Extensions > Advanced Settings > Extension Installation. You will then be prompted to enter your Notion credentials.
 6. Start MCP Server and verify the integration with Notion.
 
 For more details about credentials and configuration, see the original project [Notion MCP Server](https://github.com/makenotion/notion-mcp-server).
